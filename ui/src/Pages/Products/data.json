@@ -1,0 +1,202 @@
+[
+    {
+        "key": "1",
+        "productname": "SME Auto Lending",
+        "partnername": "Amrit Malwa Capital Limited",
+        "partnership": "80:10",
+        "assestclass":"Commercial Vehicle-New",
+        "approvedlimit":"200Cr",
+        "partnerid": "PN5623200",
+        "status": "Active"
+    },
+    {
+        "key": "2",
+        "productname": "SME Auto Lending",
+        "partnername": "Krazybee Services Pvt Ltd",
+        "partnership": "90:10",
+        "assestclass":"Commercial Vehicle-New",
+        "approvedlimit":"200Cr",
+        "partnerid": "PN5623200",
+        "status": "Active"
+    },
+    {
+        "key": "3",
+        "productname": "SME Auto Lending",
+        "partnername": "Loanzen Finance Pvt Ltd",
+        "partnership": "50:10",
+        "assestclass":"Commercial Vehicle-New",
+        "approvedlimit":"200Cr",
+        "partnerid": "PN5623200",
+        "status": "Active"
+    },
+    {
+        "key": "4",
+        "productname": "SME Auto Lending",
+        "partnername": "Upwards Capital Pvt Ltd",
+        "partnership": "60:10",
+        "assestclass":"Commercial Vehicle-New",
+        "approvedlimit":"200Cr",
+        "partnerid": "PN5623200",
+        "status": "Inprogress"
+    },
+    {
+        "key": "5",
+        "productname": "SME Auto Lending",
+        "partnername": "Early Salary Services Pvt Ltd",
+        "partnership": "40:10",
+        "assestclass":"Commercial Vehicle-New",
+        "approvedlimit":"200Cr",
+        "partnerid": "PN5623200",
+        "status": "Inprogress"
+    },
+    {
+        "key": "6",
+        "productname": "SME Auto Lending",
+        "partnername": "Smart Coin Financials Pvt Ltd",
+        "partnership": "30:10",
+        "assestclass":"Commercial Vehicle-New",
+        "approvedlimit":"200Cr",
+        "partnerid": "PN5623200",
+        "status": "Active"
+    },
+    {
+        "key": "7",
+        "productname": "SME Auto Lending",
+        "partnername": "Upwards Capital Pvt Ltd",
+        "partnership": "20:10",
+        "assestclass":"Commercial Vehicle-New",
+        "approvedlimit":"200Cr",
+        "partnerid": "PN5623200",
+        "status": "Active"
+    },
+    {
+        "key": "8",
+        "productname": "SME Auto Lending",
+        "partnername": "Wortgage finance Private Limited",
+        "partnership": "90:10",
+        "assestclass":"Commercial Vehicle-New",
+        "approvedlimit":"200Cr",
+        "partnerid": "PN5623200",
+        "status": "Inactive"
+    },
+    {
+        "key": "9",
+        "productname": "SME Auto Lending",
+        "partnername": "Zamrit Malwa Capital Limited",
+        "partnership": "60:10",
+        "assestclass":"Commercial Vehicle-New",
+        "approvedlimit":"200Cr",
+        "partnerid": "PN5623200",
+        "status": "Inactive"
+    },
+    {
+        "key": "10",
+        "productname": "SME Auto Lending",
+        "partnername": "Froanzen Finance Pvt Ltd",
+        "partnership": "60:10",
+        "assestclass":"Commercial Vehicle-New",
+        "approvedlimit":"200Cr",
+        "partnerid": "PN5623200",
+        "status": "Inactive"
+    },
+    {
+        "key": "11",
+        "productname": "SME Auto Lending",
+        "partnername": "Amrit Malwa Capital Limited",
+        "partnership": "80:10",
+        "assestclass":"Commercial Vehicle-New",
+        "approvedlimit":"200Cr",
+        "partnerid": "PN5623200",
+        "status": "active"
+    },
+    {
+        "key": "12",
+        "productname": "SME Auto Lending",
+        "partnername": "Krazybee Services Pvt Ltd",
+        "partnership": "90:10",
+        "assestclass":"Commercial Vehicle-New",
+        "approvedlimit":"200Cr",
+        "partnerid": "PN5623200",
+        "status": "active"
+    },
+    {
+        "key": "13",
+        "productname": "SME Auto Lending",
+        "partnername": "Loanzen Finance Pvt Ltd",
+        "partnership": "50:10",
+        "assestclass":"Commercial Vehicle-New",
+        "approvedlimit":"200Cr",
+        "partnerid": "PN5623200",
+        "status": "active"
+    },
+    {
+        "key": "14",
+        "productname": "SME Auto Lending",
+        "partnername": "Upwards Capital Pvt Ltd",
+        "partnership": "60:10",
+        "assestclass":"Commercial Vehicle-New",
+        "approvedlimit":"200Cr",
+        "partnerid": "PN5623200",
+        "status": "active"
+    },
+    {
+        "key": "15",
+        "productname": "SME Auto Lending",
+        "partnername": "Early Salary Services Pvt Ltd",
+        "partnership": "40:10",
+        "assestclass":"Commercial Vehicle-New",
+        "approvedlimit":"200Cr",
+        "partnerid": "PN5623200",
+        "status": "active"
+    },
+    {
+        "key": "16",
+        "productname": "SME Auto Lending",
+        "partnername": "Smart Coin Financials Pvt Ltd",
+        "partnership": "30:10",
+        "assestclass":"Commercial Vehicle-New",
+        "approvedlimit":"200Cr",
+        "partnerid": "PN5623200",
+        "status": "active"
+    },
+    {
+        "key": "17",
+        "productname": "SME Auto Lending",
+        "partnername": "Upwards Capital Pvt Ltd",
+        "partnership": "20:10",
+        "assestclass":"Commercial Vehicle-New",
+        "approvedlimit":"200Cr",
+        "partnerid": "PN5623200",
+        "status": "active"
+    },
+    {
+        "key": "18",
+        "productname": "SME Auto Lending",
+        "partnername": "Wortgage finance Private Limited",
+        "partnership": "90:10",
+        "assestclass":"Commercial Vehicle-New",
+        "approvedlimit":"200Cr",
+        "partnerid": "PN5623200",
+        "status": "active"
+    },
+    {
+        "key": "19",
+        "productname": "SME Auto Lending",
+        "partnername": "Zamrit Malwa Capital Limited",
+        "partnership": "60:10",
+        "assestclass":"Commercial Vehicle-New",
+        "approvedlimit":"200Cr",
+        "partnerid": "PN5623200",
+        "status": "active"
+    },
+    {
+        "key": "20",
+        "productname": "SME Auto Lending",
+        "partnername": "Froanzen Finance Pvt Ltd",
+        "partnership": "60:10",
+        "assestclass":"Commercial Vehicle-New",
+        "approvedlimit":"200Cr",
+        "partnerid": "PN5623200",
+        "status": "active"
+    }
+]

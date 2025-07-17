@@ -1,0 +1,48 @@
+@import "../../App.scss";
+
+/*  -----------------------------------------------------------
+    ---------------- FEES AND CHARGES PAGE --------------------
+    ----------------------------------------------------------- */
+
+.fees-and-charges-datapoint .fees-and-charges-table-badge {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  font-family: $ff-inter;
+}
+
+.fees-and-charges-datapoint .fees-and-charges-active {
+  background-color: $success-bg !important;
+}
+
+.fees-and-charges-datapoint .fees-and-charges-inactive {
+  background-color: $decline-bg !important;
+}
+
+.switch-div .ant-switch-checked {
+  background: $primary-color !important;
+}
+
+.switch-div .ant-switch.ant-switch-checked .ant-switch-handle {
+  inset-inline-start: calc(100% - 18px);
+}
+
+.switch-div .ant-switch .ant-switch-handle {
+  inset-inline-start: 4px;
+  height: 14px;
+  width: 14px;
+}
+
+.switch-div .ant-switch {
+  height: 18px;
+  min-width: 36px;
+}
+
+.radio-div .ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
+  background-color: $color-light;
+  border-color: $primary-color;
+}
+
+.radio-div .ant-radio-wrapper .ant-radio-inner::after {
+  background-color: $primary-color;
+}

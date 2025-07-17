@@ -1,0 +1,342 @@
+[
+    {
+        "key": "1",
+        "partnername": "Amrit Malwa Capital Limited",
+        "children": [
+            {
+                "key": "11",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            },
+            {
+                "key": "12",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            },
+            {
+                "key": "13",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            }
+        ],
+        "partnerid": "PN5623200",
+        "type": "NBFC",
+        "partnership": "80:10",
+        "productname": "SME Auto Lending",
+        "status": "active",
+        "productlimit": "50cr",
+        "totallimit": "600cr"
+    },
+    {
+        "key": "2",
+        "partnername": "Krazybee Services Pvt Ltd",
+        "children": [
+            {
+                "key": "14",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            },
+            {
+                "key": "15",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            },
+            {
+                "key": "16",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            }
+        ],
+        "partnerid": "PN5623200",
+        "type": "NBFC",
+        "partnership": "90:10",
+        "productname": "SME Auto Lending",
+        "status": "active",
+        "productlimit": "50cr",
+        "totallimit": "600cr"
+    },
+    {
+        "key": "3",
+        "partnername": "Loanzen Finance Pvt Ltd",
+        "children": [
+            {
+                "key": "17",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            },
+            {
+                "key": "18",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            },
+            {
+                "key": "19",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            }
+        ],
+        "partnerid": "PN5623200",
+        "type": "NBFC",
+        "partnership": "50:10",
+        "productname": "SME Auto Lending",
+        "status": "active",
+        "productlimit": "50cr",
+        "totallimit": "600cr"
+    },
+    {
+        "key": "4",
+        "partnername": "Upwards Capital Pvt Ltd",
+        "children": [
+            {
+                "key": "20",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            },
+            {
+                "key": "21",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            },
+            {
+                "key": "22",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            }
+        ],
+        "partnerid": "PN5623200",
+        "type": "NBFC",
+        "partnership": "60:10",
+        "productname": "SME Auto Lending",
+        "status": "active",
+        "productlimit": "50cr",
+        "totallimit": "600cr"
+    },
+    {
+        "key": "5",
+        "partnername": "Early Salary Services Pvt Ltd",
+        "children": [
+            {
+                "key": "23",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            },
+            {
+                "key": "24",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            },
+            {
+                "key": "25",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            }
+        ],
+        "partnerid": "PN5623200",
+        "type": "NBFC",
+        "partnership": "40:10",
+        "productname": "SME Auto Lending",
+        "status": "active",
+        "productlimit": "50cr",
+        "totallimit": "600cr"
+    },
+    {
+        "key": "6",
+        "partnername": "Smart Coin Financials Pvt Ltd",
+        "children": [
+            {
+                "key": "26",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            },
+            {
+                "key": "27",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            },
+            {
+                "key": "28",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            }
+        ],
+        "partnerid": "PN5623200",
+        "type": "NBFC",
+        "partnership": "30:10",
+        "productname": "SME Auto Lending",
+        "status": "active",
+        "productlimit": "50cr",
+        "totallimit": "600cr"
+    },
+    {
+        "key": "7",
+        "partnername": "Upwards Capital Pvt Ltd",
+        "children": [
+            {
+                "key": "29",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            },
+            {
+                "key": "30",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            },
+            {
+                "key": "31",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            }
+        ],
+        "partnerid": "PN5623200",
+        "type": "NBFC",
+        "partnership": "20:10",
+        "productname": "SME Auto Lending",
+        "status": "active",
+        "productlimit": "50cr",
+        "totallimit": "600cr"
+    },
+    {
+        "key": "8",
+        "partnername": "Wortgage finance Private Limited",
+        "children": [
+            {
+                "key": "32",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            },
+            {
+                "key": "33",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            },
+            {
+                "key": "34",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            }
+        ],
+        "partnerid": "PN5623200",
+        "type": "NBFC",
+        "partnership": "90:10",
+        "productname": "SME Auto Lending",
+        "status": "active",
+        "productlimit": "50cr",
+        "totallimit": "600cr"
+    },
+    {
+        "key": "9",
+        "partnername": "Zamrit Malwa Capital Limited",
+        "children": [
+            {
+                "key": "35",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            },
+            {
+                "key": "36",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            },
+            {
+                "key": "37",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            }
+        ],
+        "partnerid": "PN5623200",
+        "type": "NBFC",
+        "partnership": "60:10",
+        "productname": "SME Auto Lending",
+        "status": "active",
+        "productlimit": "50cr",
+        "totallimit": "600cr"
+    },
+    {
+        "key": "10",
+        "partnername": "Froanzen Finance Pvt Ltd",
+        "children": [
+            {
+                "key": "38",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            },
+            {
+                "key": "39",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            },
+            {
+                "key": "40",
+                "partnership": "80:20",
+                "productname": "Two wheeler (E-rickshaw)",
+                "status": "Inactive",
+                "productlimit": "100cr"
+            }
+        ],
+        "partnerid": "PN5623200",
+        "type": "NBFC",
+        "partnership": "60:10",
+        "productname": "SME Auto Lending",
+        "status": "active",
+        "productlimit": "50cr",
+        "totallimit": "600cr"
+    }
+]

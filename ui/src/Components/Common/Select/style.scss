@@ -1,0 +1,23 @@
+.form-select{
+    border: 1px solid #939598!important;
+    color: #939598!important;
+    background-color: #FAFAFA!important;
+    border-radius: 4px!important;
+}
+.form-select:focus {
+    box-shadow: none !important;
+}
+.form-select.optionLabel{
+    color: rgba(0, 0, 0, 0.25)!important;
+}
+.form-select.optionLabel option{
+    color: rgba(65, 64, 66, 1);
+
+}
+.form-select.is-invalid:not([multiple]):not([size]),
+.form-select:valid:not([multiple]):not([size]){
+    --bs-form-select-bg-icon: none!important;
+}
+.form-select.is-invalid{
+    border-color: #dc3545!important;
+}

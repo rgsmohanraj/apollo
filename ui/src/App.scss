@@ -1,0 +1,1032 @@
+/*  --------------------------------------------------------------------
+    -------------------- ROOT VARIABLES - APOLLO -----------------------
+    -------------------------------------------------------------------- */
+// colors
+
+$primary-color: #3763AF;
+$primary-gradient: linear-gradient(90deg, $primary-color 0%, #59C5C7 100%);
+$primary-text-color: #5D5D5D;
+$apollo-black: #1B212D;
+$heading-bg-color: #E7F0FF;
+$heading-text-color: #2C4C86;
+$decline-color: #F04E53;
+$decline-bg: #FFF1F0;
+$success-color: #3DBD48;
+$success-bg: #F6FFED;
+$alert-color: #F58220;
+$alert-bg: #FFFBE6;
+$breadcrumbs-color: #00000080;
+$breadcrumbs-child-color: #595959;
+$label-text-color: #808080;
+$form-input-text-color: #939598;
+$field-error-color: #F45C60;
+$color-light: #FFFFFF;
+$color-disabled: #F5F5F5;
+$text-disabled: #00000040;
+$hover-light-blue: #EAF2FF;
+$tooltip-bg: #414042;
+$table-header-bg: #EBF2FF;
+$table-border-color: #E6E6E6;
+$body-bg-color: linear-gradient(135deg, #F2F1F1 0%, $hover-light-blue 100%);
+$cursor-pointer: pointer;
+// borders and shadows
+
+$table-border-bottom: 1px solid #F0F0F0;
+$primary-drop-shadow: 0px 0px 0px 2px #1890FF33;
+$gray-drop-shadow: 0px 2px 2px 0px #0000000D;
+$card-drop-shadow: 0px 2px 6px 0px #0000001F;
+$primary-focus-border: 1px solid #4F7CCA;
+$gray-bottom-border: 0px -1px 0px 0px #E0E0E0 inset;
+$row-divider: 1px solid #dee2e6;
+$decline-border: 1px solid #FFCCC7;
+$success-border: 1px solid #B7EB8F;
+$alert-border: 1px solid #FFE58F;
+$primary-border: 1px solid $primary-color;
+$form-border: 1px solid $form-input-text-color;
+
+// Fonts
+
+$ff-inter: "Inter", sans-serif;
+$ff-poppins: "Poppins", sans-serif;
+
+
+/*  --------------------------------------------------------------------
+    -------------------- COMMON CLASSES - APOLLO -----------------------
+    -------------------------------------------------------------------- */
+
+//  -------------------------- FONT FAMILY ----------------------------- //
+
+.ff-poppins {
+  font-family: $ff-poppins !important;
+  font-style: normal;
+}
+
+.ff-inter {
+  font-family: $ff-inter !important;
+  font-style: normal;
+}
+
+//  -------------------------- FONT COLORS ----------------------------- //
+
+.color-light {
+  color: $color-light !important;
+}
+
+.color-heading-text {
+  color: $heading-text-color !important;
+}
+
+.color-primary {
+  color: $primary-color !important;
+}
+
+.color-primary-text {
+  color: $primary-text-color !important;
+}
+
+.color-lable-text {
+  color: $label-text-color !important;
+}
+
+.color-disabled-text {
+  color: $text-disabled !important;
+}
+
+.color-breadcrumbs-child {
+  color: $breadcrumbs-child-color !important;
+}
+
+.color-apollo-black {
+  color: $apollo-black !important;
+}
+
+.color-tooltip-bg {
+  color: $tooltip-bg !important;
+}
+
+.color-success {
+  color: $success-color !important;
+}
+
+.color-inactive {
+  color: $decline-color !important;
+}
+
+.color-alert {
+  color: $alert-color !important;
+}
+
+.color-inherit {
+  color: inherit !important;
+}
+
+.color-breadcrumbs {
+  color: $breadcrumbs-color;
+}
+
+.color-input-text {
+  color: $form-input-text-color !important;
+}
+
+//  --------------------------- BG COLORS ------------------------------ //
+
+.gradient-primary {
+  background: $primary-gradient;
+}
+
+.bg-heading {
+  background-color: $heading-bg-color;
+}
+
+.bg-disabled {
+  background: $color-disabled;
+}
+
+.bg-main-white {
+  background: $color-light !important;
+}
+
+.bg-success {
+  background: $success-bg !important;
+}
+
+.bg-decline {
+  background: $decline-bg !important;
+}
+
+.bg-error {
+  background: $field-error-color !important;
+}
+
+.border-bottom-gray {
+  box-shadow: $gray-bottom-border;
+}
+
+.br-4px {
+  border-radius: 4px !important;
+}
+
+.line {
+  border-bottom: $row-divider;
+}
+
+.border-apollo-primary {
+  border: $primary-border !important;
+}
+
+.gray-box-shadow {
+  box-shadow: $gray-drop-shadow;
+}
+
+.card-box-shadow {
+  box-shadow: $card-drop-shadow !important;
+}
+
+.box-shadow-none {
+  box-shadow: none !important;
+}
+
+//  --------------------------- FONT SIZE ------------------------------ //
+
+.fs-10 {
+  font-size: 10px !important;
+}
+
+.fs-12 {
+  font-size: 12px !important;
+}
+
+.fs-14 {
+  font-size: 14px !important;
+}
+
+.fs-16 {
+  font-size: 16px !important;
+}
+
+.fs-18 {
+  font-size: 18px !important;
+}
+
+.fs-24 {
+  font-size: 24px !important;
+}
+
+//  -------------------------- FONT WEIGHT ----------------------------- //
+
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+//  ----------------------- FONT DECORATION ---------------------------- //
+
+.plain-link {
+  text-decoration: none !important;
+}
+
+//  -------------------------- LINE HEIGHT ----------------------------- //
+
+.lh-12 {
+  line-height: 12px !important;
+}
+
+.lh-16 {
+  line-height: 16px !important;
+}
+
+.lh-18 {
+  line-height: 18px !important;
+}
+
+.lh-21 {
+  line-height: 21px !important;
+}
+
+.lh-28 {
+  line-height: 28px !important;
+}
+
+.lh-32 {
+  line-height: 32px !important;
+}
+
+.lh-36 {
+  line-height: 36px !important;
+}
+
+//  ---------------------------- MARGINS ------------------------------- //
+
+.me-4px {
+  margin-right: 4px;
+}
+
+.me-8px {
+  margin-right: 8px;
+}
+
+.me-16 {
+  margin-right: 16px !important;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.mb-6 {
+  margin-bottom: 6rem;
+}
+
+.mb-6px {
+  margin-bottom: 6px;
+}
+
+.mb-8px {
+  margin-bottom: 8px;
+}
+
+.mb-12px {
+  margin-bottom: 12px;
+}
+
+.mb-16px {
+  margin-bottom: 16px !important;
+}
+
+.mb-18px {
+  margin-bottom: 18px;
+}
+
+.mb-24px {
+  margin-bottom: 24px;
+}
+
+.mba-16px {
+  margin: 0px 0px 16px 0px !important;
+}
+
+.ms-12px {
+  margin-left: 12px;
+}
+
+//  --------------------------- PADDINGS ------------------------------- //
+
+.p-24 {
+  padding: 0px 24px !important;
+}
+
+.p-12px {
+  padding: 12px !important;
+}
+
+.pa-8 {
+  padding: 8px !important;
+}
+
+.pa-12 {
+  padding: 12px !important;
+}
+
+.pa-16 {
+  padding: 16px !important;
+}
+
+.pa-24 {
+  padding: 24px !important;
+}
+
+.pe-16px {
+  padding-left: 16px !important;
+}
+
+.pea-24px {
+  padding: 0px 24px 0px 0px !important;
+}
+
+.pb-8px {
+  padding: 0px 0px 8px 0px !important;
+}
+
+.pb-12px {
+  padding-bottom: 12px !important;
+}
+
+.pb-24px {
+  padding-bottom: 24px !important;
+}
+
+.pt-6px {
+  padding-top: 6px !important;
+}
+
+.ptb-8px {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+
+//  -------------------------- DIMENSIONS ------------------------------ //
+
+.height-10 {
+  height: 10px !important;
+}
+
+.height-12 {
+  height: 12px !important;
+}
+
+.height-14 {
+  height: 14px !important;
+}
+
+.height-18 {
+  height: 18px !important;
+}
+
+.height-22 {
+  height: 22px !important;
+}
+
+.height-24 {
+  height: 24px;
+}
+
+.height-32 {
+  height: 32px !important;
+}
+
+.height-42 {
+  height: 42px !important;
+}
+
+.height-60 {
+  height: 60px !important;
+}
+
+.height-80 {
+  height: 80px !important;
+}
+
+.width-14 {
+  width: 14px !important;
+}
+
+.width-18 {
+  width: 18px !important;
+}
+
+.width-22 {
+  width: 22px !important;
+}
+
+.width-24 {
+  width: 24px;
+}
+
+.width-32 {
+  width: 32px !important;
+}
+
+.width-42 {
+  width: 42px !important;
+}
+
+.width-60 {
+  width: 60px !important;
+}
+
+.width-80 {
+  width: 80px !important;
+}
+
+//  --------------------------- SPACING -------------------------------- //
+
+.justify-content-between {
+  justify-content: space-between !important;
+  padding: 24px 0px 24px 0px;
+}
+
+.right-0 {
+  right: 0 !important;
+}
+
+.right-10 {
+  right: 10px !important;
+}
+
+//  ---------------------------- TABLES -------------------------------- //
+
+.table-wrapper>* {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+// .table-container .ant-table {
+//   font-family: $ff-inter !important;
+//   font-size: 12px !important;
+//   border-radius: 0px;
+//   border-width: 1px 1px 0px 1px;
+//   border-style: solid;
+//   border-color: $table-border-color;
+// }
+
+.table-container,
+.products-table-container {
+  .ant-table {
+    font-family: $ff-inter !important;
+    font-size: 12px !important;
+    border-radius: 0px;
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+    border-color: $table-border-color;
+  }
+}
+
+.table-container,
+.products-table-container {
+  .ant-table {
+    font-family: $ff-inter !important;
+    font-size: 12px !important;
+    border-radius: 0px;
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+    border-color: $table-border-color;
+  }
+}
+
+// .table-container .ant-table-thead>tr>th {
+//   padding: 11px 12px 9px 12px !important;
+//   border-bottom: $table-border-bottom !important;
+//   background: $table-header-bg !important;
+//   border-radius: 0px !important;
+// }
+
+.table-container,
+.products-table-container {
+  .ant-table-thead>tr>th {
+    padding: 11px 12px 9px 12px !important;
+    border-bottom: $table-border-bottom !important;
+    background: $table-header-bg !important;
+    border-radius: 0px !important;
+  }
+}
+
+.table-container .ant-table-tbody>tr>td {
+  padding: 12px !important;
+}
+
+.products-table-container .ant-table-tbody>tr>td {
+  padding: 9px !important;
+}
+
+.checked-row {
+  background-color: #F5F5F5 !important;
+  border-bottom: 1px solid #E6E6E6 !important;
+}
+
+.ant-pagination-total-text {
+  font-family: $ff-inter !important;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  position: absolute;
+  left: 16px;
+}
+
+.ant-pagination-item {
+  font-family: $ff-inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: $form-input-text-color;
+  padding: 1px 7px 1px 7px;
+  border-radius: 8px;
+  border: $form-border !important;
+}
+
+.ant-pagination-item-active {
+  background-color: $primary-color !important;
+  border: 1px solid $primary-color !important;
+  font-weight: 500 !important;
+  color: $color-light;
+}
+
+.ant-pagination {
+  margin-right: 16px !important;
+  margin-bottom: 0px !important;
+}
+
+.ant-spin-nested-loading {
+  border: none !important;
+}
+
+// TABLE FILER POPUP
+
+.table-filter-popup {
+  min-width: 120px !important;
+  z-index: 0;
+}
+
+.ant-dropdown {
+  z-index: 2;
+}
+
+.table-filter-popup::after {
+    content: '';
+    position: absolute;
+    top: -11px;
+    right: 5%;
+    transform: translateX(-50%) rotate(180deg);
+    margin-left: -5px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+}
+
+.table-filter-popup .ant-checkbox-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-filter-popup .ant-checkbox-wrapper:not(:last-child) {
+  margin-bottom: 12px !important;
+}
+
+.table-filter-popup .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: $primary-color;
+    border: none;
+}
+
+
+.table-filter-popup .ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-inner,
+.table-filter-popup .ant-checkbox:not(.ant-checkbox-disabled):hover .ant-checkbox-inner{
+  border-color: $primary-color !important;
+}
+
+.table-filter-popup .ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-checked:not(.ant-checkbox-disabled) .ant-checkbox-inner {
+  background-color: $primary-color;
+}
+
+.table-filter-popup-footer {
+  border-top: $table-border-bottom;
+}
+//  ------------------------- INPUT FIELDS ----------------------------- //
+
+.form-card {
+  border-radius: 4px !important;
+}
+
+.bottom-card-form {
+  margin-bottom: 25px;
+}
+
+.search-form-item .ant-input-outlined:hover {
+  border-color: rgba(147, 149, 152, 1) !important;
+}
+
+.search-form-item .ant-input-outlined:focus,
+.search-form-item .ant-input-outlined:focus-within {
+  border-color: rgba(147, 149, 152, 1) !important;
+  box-shadow: none;
+}
+
+.search-input {
+  right: 0px !important;
+}
+
+.form-item input {
+  border: $form-border;
+  color: $form-input-text-color;
+  background-color: #FAFAFA;
+  border-radius: 4px;
+}
+
+.form-item label {
+  font-family: $ff-inter !important;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: $label-text-color !important;
+}
+
+.ant-picker,
+.ant-select-selector {
+  border: 1px solid #939598 !important;
+  color: #939598 !important;
+  background-color: #FAFAFA !important;
+  border-radius: 4px !important;
+  width: 100% !important;
+}
+
+//  ------------------------- SEARCH BAR ------------------------------ //
+
+.searchBar {
+  width: 450px !important;
+}
+
+.searchBar .search-input {
+  width: 100%;
+  border: 1px solid #3763AF !important;
+  box-shadow: 0px 0px 0px 2px #1890FF33;
+  background: #FFFFFF;
+  border-radius: 4px;
+}
+
+.searchBar .search-input input {
+  font-family: $ff-inter;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+//  ------------------------ STICKY FOOTER ----------------------------- //
+
+.sticky-footer {
+  padding: 8px 24px;
+  box-shadow: 0px -2px 6px 0px #0000001F;
+  width: calc(100% - 198px) !important;
+}
+
+//  ------------------------- MODAL STYLES ----------------------------- //
+
+.ant-modal-body {
+  font-family: $ff-inter !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 18px !important;
+}
+
+.ant-modal-content {
+  border-radius: 4px !important;
+  height: 100%;
+  width: 100%;
+  padding: 24px !important;
+}
+
+.ant-modal-close-x {
+  color: $primary-color !important;
+  font-size: 14px;
+}
+
+.confirmation-dialog {
+  border-radius: 4px;
+  width: 416px;
+  height: 154px;
+}
+
+.confirmation-dialog-ok-button {
+  border-radius: 8px;
+  padding: 4px 16px 4px 16px;
+  width: 57px;
+}
+
+.confirmation-dialog-cancel-button {
+  border: $primary-border;
+  border-radius: 8px;
+  padding: 4px 16px 4px 16px;
+  width: 57px;
+}
+
+.confirmation-dialog .ant-modal-title {
+  font-family: $ff-poppins;
+  color: $heading-text-color !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  line-height: 28px !important;
+  margin-bottom: 16px;
+}
+
+.success-dialog-icon {
+  font-size: 50px;
+  color: $success-color !important;
+  margin-bottom: 16px;
+}
+
+.success-dialog {
+  width: 416px;
+  height: 206px;
+  border-radius: 4px;
+}
+
+.success-dialog-ok-button {
+  width: 138.25px;
+  border-radius: 8px;
+  padding: 4px 16px 4px 16px;
+  border: 0px;
+}
+
+.success-dialog-cancel-button {
+  width: 82px;
+  height: 32px;
+  border-radius: 8px;
+  padding: 4px 16px 4px 16px;
+  border: $primary-border;
+}
+
+.success-dialog .ant-modal-footer {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+
+.filter-dialoge {
+  border-radius: 4px;
+  width: 416px;
+  height: auto;
+}
+
+.filter-dialoge .ant-modal-content {
+  height: 100%;
+  width: 100%;
+  padding: 0px !important;
+}
+
+.filter-dialoge .ant-modal-title {
+  font-family: $ff-poppins;
+  color: $heading-text-color !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  line-height: 28px !important;
+  margin-bottom: 16px;
+  padding: 14px 24px !important
+}
+
+.filter-dialoge .ant-modal-header {
+  box-shadow: $gray-bottom-border !important;
+}
+
+.filter-dialoge .ant-modal-body {
+  padding: 14px 48px 14px 24px !important;
+  box-shadow: $gray-bottom-border;
+}
+
+.filter-dialoge .ant-modal-footer {
+  padding: 14px 24px !important;
+}
+
+.dedupe-dialoge,
+.bureau-dialoge {
+  border-radius: 4px;
+  width: 1100px !important;
+  height: auto;
+}
+
+.dedupe-dialoge .ant-modal-content,
+.bureau-dialoge .ant-modal-content {
+  height: 100%;
+  width: 100%;
+  padding: 0px !important;
+}
+
+.dedupe-dialoge .ant-modal-title,
+.bureau-dialoge .ant-modal-title {
+  font-family: $ff-poppins;
+  color: $heading-text-color !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  line-height: 28px !important;
+  padding: 14px 24px !important;
+}
+
+.dedupe-dialoge .ant-modal-header,
+.bureau-dialoge .ant-modal-header {
+  box-shadow: $gray-bottom-border !important;
+  margin-bottom: 0px;
+}
+
+.dedupe-dialoge .ant-modal-body,
+.bureau-dialoge .ant-modal-body {
+  box-shadow: $gray-bottom-border;
+}
+
+.dedupe-dialoge .ant-table-tbody>tr:last-child {
+  background-color: $success-bg;
+}
+
+.dedupe-dialoge .ant-table-tbody>tr:last-child .ant-table-cell {
+  color: $success-color;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+}
+
+.bureau-dialoge .ant-modal-body {
+  overflow: auto;
+}
+
+.bureau-dialoge .ant-modal-body .ant-table-wrapper table {
+  padding-right: 24px !important;
+}
+
+// Button Css
+
+.primary-button:hover {
+  background: $primary-color !important;
+  color: $color-light !important;
+}
+
+/*  --------------------------------------------------------------------
+    ---------------------- SCROLL STYLES -----------------------
+    -------------------------------------------------------------------- */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #C9DDFF;
+  height: 60px;
+  border-radius: 4px;
+}
+
+/*  --------------------------------------------------------------------
+    ---------------------- POINTER -----------------------
+    --------------------------------------------------------------------  */
+
+.pointer {
+  cursor: $cursor-pointer;
+}
+
+/*  --------------------------------------------------------------------
+    -------------------- APPLICATION BASE STYLES -----------------------
+    -------------------------------------------------------------------- */
+
+.app-container {
+  transition: margin-left 0.5s;
+  background: linear-gradient(129.27deg, #F2F1F1 2.94%, #EAF2FF 82.25%);
+  height: 100vh;
+}
+
+.menu-open {
+  margin-left: 200px;
+}
+
+.menu-closed {
+  margin-left: 70px;
+}
+
+.left-menu.col-sm-2 {
+  width: 207px;
+  padding: 48px 0px 0px 0px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.main-content.col-sm-10 {
+  width: calc(100% - 207px);
+
+}
+
+/* Small laptops and tablets */
+@media only screen and (max-width: 767px) {
+  .menu-open {
+    margin-left: 0;
+  }
+}
+
+/* Medium-sized laptops */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .menu-open {
+    margin-left: 0;
+  }
+}
+
+/* Large laptops */
+@media only screen and (min-width: 1024px) and (max-width: 1050px) {
+  .menu-open {
+    margin-left: 0;
+  }
+
+  .main-content-card {
+    margin-left: 24px;
+    width: 97%;
+  }
+}
+
+@media only screen and (min-width: 1050px) and (max-width: 1120px) {
+  .main-content-card {
+    margin-left: 18px;
+    width: 98%;
+  }
+}
+
+@media only screen and (min-width: 1120px) and (max-width: 1160px) {
+
+  .main-content-card {
+    margin-left: 10px;
+    width: 99%;
+  }
+}
+
+/* For screens up to 1440 pixels */
+@media only screen and (min-width: 1440px) {
+  .main-content-card {
+    width: 100%;
+  }
+}
+
+/* For screens between 1441 pixels and 1520 pixels */
+@media only screen and (min-width: 1441px) and (max-width: 1520px) {
+  .main-content-card {
+    width: 100%;
+  }
+}
+
+/*  --------------------------------------------------------------------
+    ------------------- NOTIFICATION TOAST STYLE -----------------------
+    -------------------------------------------------------------------- */
+
+.ant-notification .ant-notification-notice-wrapper .ant-notification-notice {
+  width: 300px !important;
+  min-height: 62px !important;
+  padding: 9px 16px 9px 16px !important;
+  border-radius: 4px !important;
+}
+
+.ant-notification-notice-success {
+  background-color: $success-bg !important;
+  border: $success-border;
+}
+
+.ant-notification-notice-error {
+  background-color: $decline-bg !important;
+  border: $decline-border;
+}
+
+.ant-notification-notice-warning {
+  background-color: $alert-bg !important;
+  border: $alert-border;
+}
+
+.ant-notification-notice-close {
+  height: 100% !important;
+}
+
+.ant-notification .ant-notification-notice-wrapper .ant-notification-notice-close:hover {
+  background-color: transparent;
+}
+
+.ant-notification-notice-icon, .ant-notification-notice-close {
+  position: absolute;
+  top: 50% !important;
+  transform: translateY(-50%);
+}
+
+.ant-notification .ant-notification-notice-wrapper .ant-notification-notice-with-icon .ant-notification-notice-message {
+  display: none;
+}

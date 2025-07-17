@@ -1,0 +1,148 @@
+@import "../../../App";
+
+.header-card.card {
+    position: fixed;
+    top: 1px;
+    left: 0;
+    width: 100%;
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 0;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.08);
+    z-index: 100;
+}
+
+.header-row.row {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 3rem;
+}
+
+.col-logo{
+    padding: 5px 13px 5px 13px;
+}
+.col-search-select {
+    display: flex;
+    align-items: center;
+    padding: 0px 12px 0px 12px;
+}
+
+.vivritiNext-logo {
+    height: 50px;
+}
+
+.logo-divider {
+    display: inline-block;
+    position: relative;
+    top: 14px;
+    left: 5px;
+    background: #3763AF;
+    height: 33px;
+    width: 1px;
+    margin: 2px
+}
+
+.apollo-logo {
+    height: 50px;
+    margin-left: 10px
+}
+
+.searchBar {
+    color: #3763AF;
+    margin-left: auto;
+    margin-right:0.8rem;
+}
+
+.search-icon {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0, -50%);
+}
+
+.search-results {
+    top: 46px !important;
+}
+
+.search-list:hover {
+    background-color: $heading-bg-color !important;
+}
+
+.search-list:hover .search-icon-bg {
+    background-color: $color-light !important;
+}
+
+.search-list:hover .product-overview-view-more-icon {
+    background-color: $color-light !important;
+}
+
+.dropdown-toggle::after{
+    margin-left: 0.6em!important;
+}
+
+.dropdown-menu.show{
+    display: block;
+    /* height: 44px; */
+    text-align: start;
+    width: 150px!important;
+    /* border-radius: 50px; */
+    transform: translate3d(-3.5px, 42.4px, 0px)!important;
+}
+
+.dropdown-menu{
+    padding: 0!important;
+}
+
+#dropdown-basic{
+    display: flex;
+    align-items: center;
+    background-color: rgb(245, 245, 245,1);
+    color: rgba(28, 45, 86, 1);
+    border: none;
+    width: 134px;
+    height: 34px;
+    border-radius: 50px;
+    margin-right: 10px;
+    padding: 4px 8px 4px 8px;
+}
+
+.user-name {
+    background: rgba(55, 99, 175, 1);
+    border-radius: 100px;
+    width: 26px;
+    padding: 0px 8px 0px 8px;
+    /* color: white; */
+    /* text-align: center; */
+    display: inline-block;
+    height: 26px;
+    margin-right: 10px;
+    /* text-align: center; */
+}
+.logout-icon{
+    margin-right: 5px;
+}
+.logged-user{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(27, 33, 45, 1);
+}
+.first-letter{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 1);
+}
+.dropdown-item:hover{
+    border-radius: 5px;
+    // background: linear-gradient(to right, #3763AF, #59C5C7)!important;
+    // color: white!important;
+}
+
+.dropdown-toggle::after {
+    content: none !important;
+}

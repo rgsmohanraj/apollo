@@ -1,0 +1,41 @@
+@import "../../../App.scss";
+
+/*  --------------------------------------------------------------------
+    ------------------------- PAGE HEADER STYLES -----------------------
+    -------------------------------------------------------------------- */
+
+.page-header {
+  padding: 16px 0px 16px 0px;
+}
+.page-header-exclude-pb{
+  padding: 16px 0px 0px 0px;
+}
+.heading {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #2C4C86;
+  display: flex;
+  align-items: center;
+}
+
+.plusBtn {
+  right: 3px;
+  bottom: 2px;
+  border-radius: 8px;
+}
+
+.plusBtn:hover {
+  background: $primary-gradient !important;
+}
+
+.search-input {
+  width: 55%;
+  border-radius: 4px;
+  float: right;
+}
+
+.search-form-item .clone-product-button {
+  min-width: 115px !important;
+  height: 32px !important;
+}

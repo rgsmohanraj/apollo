@@ -1,0 +1,133 @@
+@import "../../App.scss";
+
+/*  --------------------------------------------------------------------
+    ------------------------ DASHBOARD STYLES --------------------------
+    -------------------------------------------------------------------- */
+
+//  Widget Section
+
+.details-card {
+  padding: 24px 0px 0px 12px;
+}
+
+.box-div,
+.last-box-row {
+  border-radius: 4px;
+}
+
+.box3-div {
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.last-box-row .box3-div {
+  box-shadow: none;
+  padding: 0px;
+}
+
+.last-box-row {
+  padding-right: 12px;
+}
+
+.card-icon {
+  border-radius: 50px;
+  margin: auto 10px auto 0px;
+  padding: 12px;
+}
+
+.card-icon path {
+  fill: #3763af;
+}
+
+// Existing Partner Section
+
+.existing-partners {
+  margin-top: 20px;
+}
+
+
+.dashboard-table {
+  padding: 1.5625rem;
+}
+
+// Float Button Section
+
+.float-btn {
+  top: 80%;
+  right: 0.75rem;
+  line-height: 1.5714285714;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.float-btn .roundedBtn-position {
+  outline: none;
+}
+
+.float-btn.true {
+  .roundedBtn-plusIcon {
+    transition: 1s;
+  }
+}
+
+.float-btn.false {
+  background: $field-error-color;
+
+  .roundedBtn-plusIcon {
+    transition: 1s;
+    transform: rotate(-45deg);
+  }
+}
+
+.float-btn:focus {
+  outline: none !important;
+}
+
+.float-items {
+  right: 0.75rem;
+  top: 66%;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.float-items.hidden {
+  opacity: 0;
+}
+
+.add-partner-product {
+  border-radius: 4px;
+  width: 119px;
+  height: 34px;
+}
+
+.proceed-btn {
+  padding: 4px 16px;
+  border-radius: 8px;
+  &:hover{
+    color: white;
+  }
+}
+
+.partner-link {
+  bottom: 8px;
+  color: rgba(55, 99, 175, 1);
+}
+
+
+// TO BE CHECKED AND REMOVED
+
+.input-class input {
+  border: 1px solid #939598;
+  color: #939598;
+  background-color: #FAFAFA;
+  border-radius: 4px;
+}
+
+.input-label {
+  color: rgba(128, 128, 128, 1);
+  font-family: 'Inter';
+  /* font-size: 12px; */
+  font-weight: 500;
+  line-height: 16px;
+}

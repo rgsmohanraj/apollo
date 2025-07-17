@@ -1,0 +1,162 @@
+@import "../../App.scss";
+
+/*  -----------------------------------------------------------
+    ---------------- PARTNER DETAILS PAGE ---------------------
+    ----------------------------------------------------------- */
+
+// Details Section
+
+.page-header .partner-type-badge {
+  background-color: $heading-bg-color !important;
+  color: $heading-text-color;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: $ff-inter;
+  line-height: 20px;
+  padding: 1px 8px 1px 8px;
+  border-radius: 4px;
+  height: 22px;
+}
+
+.page-header .success-type-badge {
+  background-color: $success-bg !important;
+  color: $success-color !important;
+  border: $success-border;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  padding: 1px 8px 1px 8px;
+  border-radius: 4px;
+  height: 22px;
+}
+
+.partner-detail-section-card {
+  border-radius: 4px;
+  min-height: 272px !important;
+}
+
+.partner-detail-icon {
+  border-radius: 50px;
+}
+
+.partner-detail-data-col {
+  padding: 12px 24px;
+}
+
+//  Details Modal
+
+.partner-detail-modal .ant-modal-content{
+  padding: 24px !important;
+}
+
+.partner-detail-modal .ant-modal-body{
+  margin-top: 25px;
+}
+
+.partner-detail-modal .heading {
+  height: 38px !important;
+  padding: 8px 16px;
+}
+
+//  Products Header Section
+
+.product-select-input {
+  min-width: 272px !important;
+}
+
+.product-select-input .ant-select-selection-placeholder {
+  color: $tooltip-bg !important;
+  font-family: $ff-inter;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+//  Product Section
+
+.create-product-card {
+  border: 1px dashed #78A3EE !important;
+  border-radius: 4px;
+  height: 144px !important;
+
+}
+
+.create-product-card .add-product-button {
+  width: 140px;
+}
+
+.create-product-card  .add-product-button:hover {
+  background: $primary-color !important;
+  color: $color-light !important;
+  border: none !important;
+}
+
+.clone-product-button {
+  border: $primary-border;
+  border-radius: 8px !important;
+  padding: 4px 16px 4px 16px !important;
+  width: 158px !important;
+}
+
+.clone-product-button svg path {
+  fill: $color-light;
+}
+
+.create-product-card .clone-product-button {
+  width: 158px !important;
+}
+
+//  Product Overview Cards
+
+.product-overview-card {
+  border-radius: 4px !important;
+  min-height: 144px !important;
+}
+
+.product-overview-card-header .loan-percent-badge {
+  background: $heading-bg-color !important;
+  border-radius: 4px !important;
+  min-height: 22px !important;
+  font-family: $ff-inter;
+  font-weight: 400;
+  color: $primary-color;
+}
+
+.product-overview-card-header .loan-percent-badge.background-active {
+  background: #E3FEE5 !important;
+}
+
+.product-overview-card-header .loan-percent-badge.background-inactive {
+  background: #fee3e3 !important;
+}
+
+.product-overview-data-icon {
+  border-radius: 50px;
+}
+
+.product-overview-view-more-icon {
+  border-radius: 50px;
+}
+
+// Clone Project Modal
+
+.clone-product-modal .ant-modal-title {
+  padding: 16px 24px 16px 24px;
+  color: $heading-text-color;
+}
+
+.clone-product-modal .ant-modal-content {
+  padding: 0px !important;
+}
+
+.clone-product-modal .ant-modal-header {
+  margin-bottom: 0px;
+}
+
+.clone-product-modal .ant-modal-footer {
+  margin: 0px !important;
+  padding: 10px 24px 10px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px !important;
+}

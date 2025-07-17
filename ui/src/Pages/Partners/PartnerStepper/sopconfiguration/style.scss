@@ -1,0 +1,331 @@
+.a-center{
+  align-items: center !important;
+}
+.a-flex-start{
+  align-items: flex-start;
+}
+.a-flex-end{
+  align-items: flex-end;
+}
+.j-center{
+  justify-content: center !important;
+}
+.j-flex-end{
+  justify-content: flex-end;
+}
+.j-flex-start{
+  justify-content: flex-start !important;
+}
+.j-space-between{
+  justify-content: space-between;
+}
+.cr-pointer{
+  cursor: pointer ;
+}
+///////////text decoration none////////////
+.td-none{
+  text-decoration: none !important;
+}
+.br-radius-4px{
+  border-radius: 4px !important;
+}////////////margin//////////////////
+.mr-05rem{
+  margin-right: 0.5rem !important;
+}
+.mb-01rem{
+  margin-bottom: 0.1rem !important;
+}
+.mb-05rem{
+  margin-bottom: .5rem  !important;
+}
+.mt-1rem{
+  margin-top: 1rem  !important;
+}
+.mt-05rem{
+  margin-top: 0.5rem !important;
+}
+.mt-02rem{
+  margin-top: 0.2rem !important;
+}
+.ml-07rem{
+  margin-left: 0.7rem !important;
+}
+.mr-02rem{
+  margin-right: 0.2rem !important;
+}
+.ml-05rem{
+  margin-left: 0.5rem !important;
+}
+.ml-1rem{
+  margin-left: 1rem !important;
+}
+.ml-6{
+  margin-left: 6% !important;
+}
+.ml-4{
+  margin-left:1.8% !important;
+}
+.ml-27{
+  margin-left:27.5%;
+}
+.m-1rem{
+  margin:1rem !important;
+}
+.ml-50{
+  margin-left: 50% !important;
+}
+.mr-1rem{
+  margin-right: 1rem !important;
+}
+/////////padding////////////////
+.pd-05rem{
+  padding:0.5rem !important;
+}
+.pdl-03rem{
+  padding-left: 0.3rem !important;
+}
+.pd-1rem{
+  padding:1rem !important;
+}
+.pdt-1rem{
+  padding-top: 1rem !important;
+}
+.pdb-05rem{
+  padding-bottom: 0.5rem !important;
+}
+.pdb-1rem{
+  padding-bottom: 1rem !important;
+}
+.pdb-2rem{
+  padding-bottom: 2rem !important;
+}
+.pdr-0{
+  padding-right: 0 !important;
+}
+.pd-1rem{
+  padding:1rem !important;
+}
+.pd-13rem{
+  padding:1.3rem !important;
+}
+.pdr-1rem{
+  padding-right: 1rem !important;
+}
+.pdl-31{
+  padding-left: 31% !important;
+}
+//////////////////colors/////////////////
+.cl-1B212D{
+  color:#1B212D !important;
+}
+.cl-414042{
+  color:#414042 !important;
+}
+.cl-1C2D56{
+  color:#1C2D56 !important;
+}
+.cl-000000{
+  color:#5b5b5b !important;
+}
+.cl-2C4C86{
+color:#2C4C86 !important;
+}
+.cl-373AF{
+  color:#3763AF !important;
+}
+.cl-000000{
+  color:#000000 !important;
+}
+
+////////////////width//////////
+.w-24{
+  width:24% !important;
+}
+//breadcrumbs////////////////
+.br-crumbs{
+font-family: "Inter", sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color:#626262;
+}
+//========sop and credit filter title==========
+.sopcredit-title{
+  font-family:"Poppins", sans-serif !important;
+  font-size: 24px;
+  font-weight: 600;
+  color:#2C4C86;
+  padding:0.5rem 0rem !important;
+}
+//   -----------------common for table components------------------
+.parent-container {
+  width: 27%;
+  margin-right: 0.8rem;
+  padding-left: 0.3rem !important;
+  padding-right: 0.3rem !important;
+  padding: 0.7rem 0rem;
+  background: white;
+  overflow-y: auto;
+  height: 73vh;
+}
+.child-container {
+  width: 72%;
+  // overflow-y: auto;
+  // height: 73vh;
+}
+//--------------------table border none-----------------
+.child-container .table-wrapper {
+  padding:0.8rem 0.7rem !important;
+}
+.child-container .ant-table{
+  border: none !important;
+}
+// ----------------sop-details-------------
+.bx-sdw{
+box-shadow: 1px solid rgb(226, 226, 226);
+}
+.sop-details-card{
+  border-radius: 4px !important;
+  border: 0px !important;
+  box-shadow: 0px 2px 6px 0px #0000001F;
+  background: #FFFFFF;
+  padding: 0px;
+}
+.sop-details-card-body{
+  padding:0.2rem 1.5rem !important;
+  padding-bottom: 1.3rem !important;
+}
+// --------------------sop-createloan--------------------------
+.file-upload-info {
+  line-height: 1.5714285714285714;
+  border: 1px solid #E6E6E6;
+  margin: 0.5rem 0rem 0.5rem 0rem !important;
+  background: #fafafa !important;
+  align-items: center !important;
+  padding:0.2rem !important;
+}
+.dragger{
+  border:1px solid #D9D9D9 !important;
+  background: #FAFAFA !important;
+}
+.alert-success{
+  position: fixed !important;
+  top:65px !important;
+  right:10px !important;
+  z-index: 9999 !important;
+  width:auto !important;
+  height: Hug (40px)px !important;
+  padding: 9px 16px 9px 16px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+
+}
+  .sop-upload {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .upload-sop {
+    color: #3763af;
+    display: flex;
+    align-items: center;
+    background: white;
+    margin-right: 0.5rem;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    width:auto !important;
+    border:1px solid #3763AF;
+  }
+  .sop-format {
+    color: #3763af;
+    display: flex;
+    align-items: center;
+    background: white;
+    margin-right: 0.5rem;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    width:auto !important;
+    border:1px solid #3763AF;
+  }
+  .parentdata-container {
+    width: Fixed (296px);
+    height: Fixed (41px);
+    padding: 14px 16px 14px 16px;
+    border-radius: 4px;
+    gap: 8px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #414042;
+  }
+  .parentdata-container.selected {
+    background-color: #e7f0ff;
+  }
+  .parentdata-container:hover {
+    background-color: #e7f0ff;
+  }
+//-------------------------------sop updateloan------------------------
+.sop-updateloan-card{
+  border-radius: 4px !important;
+  border: 0px !important;
+  box-shadow: 0px 2px 6px 0px #0000001F;
+  background: #FFFFFF;
+  padding: 0px;
+  font-family: "Inter", sans-serif !important;
+}
+.sop-updateloan-card-body{
+  padding: 1.3rem 1.5rem!important;
+}
+  .update-loan-checks {
+    color: "#808080";
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .checks-container {
+    padding-top: 0.5rem;
+    padding-bottom:1rem;
+  }
+  .updateloan-checks-box {
+    margin-right: 0.5rem;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1c2d56;
+  }
+  //----------------------sop agreement signed ----------------
+.sop-documentation-container .table-wrapper ,
+.sop-agrementsigned-container .table-wrapper{
+    padding:0.8rem !important;
+    border:none !important;
+   }
+.sop-documentation-container .ant-table ,
+.sop-agrementsigned-container .ant-table{
+    border: none !important;
+  }
+
+  .table-container .ant-table-tbody > tr.ant-table-measure-row > td {
+  padding: 0px !important;
+}
